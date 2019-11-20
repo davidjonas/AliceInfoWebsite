@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alice</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,height=device-height,target-densitydpi=device-dpi,user-scalable=no" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon-precomposed" href="/android-icon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:url" content="http://aliceperformance.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ALICE" />
+    <meta property="og:description" content="ALICE is a performative installation, inspired by Lewis Carroll's book Through the Looking-Glass, and What Alice Found There, in which you yourself are both observer and performer. Together with a small group of 'spect-actors', you find yourself in a transreal environment where the physical and virtual worlds gaze at each other. What is real in this world that holds a mirror up to your face? Did you dream the same dream as others did?" />
+    <meta property="og:image" content="http://aliceperformance.com/images/facebook_alice.jpg" />
+
+    <link rel="stylesheet" href="css/font.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css?v=1" type="text/css">
+    <!-- <script src="js/vue.js"></script> -->
+    <!-- <script src="js/alice.js"></script> -->
+    <script src="js/sound.js"></script>
+    <script src="js/poet.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-105832862-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+
+    <video poster="images/fan.png" id="bgvid" playsinline autoplay muted loop>
+    <source src="video/fan2.mp4" type="video/mp4">
+    <source src="video/fan2.webm" type="video/webm">
+    </video>
+
+    <div id="alice">
+    <h1>Alice</h1>
+
+    <p class="dates"><strong>8, 9, 10 September</strong> | <a href="https://gaudeamus.nl/events/senses-working-overtime-sound-art-expositie/">Gaudeamus Muziekweek</a> | Het Huis, Utrecht | 20 performances</p>
+    <p class="dates"><strong>12 November</strong> | <a href="http://novembermusic.net/programma/thanasis-deligiannis">November Music</a> | Pand 18, Den Bosch | 7 performances</p>
+
+
+    <!-- <h2>what</h2> -->
+    <section id="what">
+    <p class="col2" id="description"><strong>ALICE</strong> is a performative installation, inspired by Lewis Carroll's book <i>Through the Looking-Glass, and What Alice Found There</i>, in which you yourself are both observer and performer. Together with a small group of 'spect-actors', you find yourself in a transreal environment where the physical and virtual worlds gaze at each other. What is real in this world that holds a mirror up to your face? Did you dream the same dream as others did?</p>
+    </section>
+
+    <!-- <h2>who</h2> -->
+    <section id="who">
+        <p style="text-align:center"><strong>Devised by <a href="http://www.iiiooo.io">I/O</a> </strong><br />
+        <a href="https://thanasisdeligiannis.com/">Thanasis Deligiannis</a> artistic direction & sound<br />
+        <a href="http://www.roelofpothuis.nl/">Roelof Pothuis</a> set & light design<br />
+        <a href="http://www.davidjonas.art">David Jonas</a> creative coding<br />
+        <a href="http://www.daanhazendonk.nl/">Daan Hazendonk</a> sound & video technician<br />
+        <a href="http://www.gallagheraudioengineering.com/visit-card.html">Clare Gallagher</a> sound advisor<br />
+        </p>
+    </section>
+
+    <!-- <h2 style="text-align:center">teaser</h2>
+    <section id="video">
+          <youtube-embed
+            v-bind:url="url"
+            v-bind:width="width"
+            v-bind:height="height"></youtube-embed>
+    </section> -->
+
+    <!-- <h2>credits</h2> -->
+    <section id="credits">
+        <p>We would like to thank for their contribution to this project the AttentionLab, Gieske Bienert, Martijn Buser, Kaja Draksler, George Dumitriu, Trevor Grahl, Anthony Heidweiller, Marko Ivic, Elizabet van der Kooij, Puck Koper, Yannis Kyriakides, Andriana Minou, Amarante Nat, Aad van Nieuwkerk, Dimitris Papaioannou, Christos Passalis, Jo&#xEB;l Roose, Jarl Schulp, Joep Stapel, Geert-Jan Strengholt, Efthimis Theou, Carmen Vanderveken</p>
+    </section>
+    <!-- <h2>sponsors</h2> -->
+    <section id="sponsors">
+    <p style="text-align:center"><a href="http://fondspodiumkunsten.nl/"><img src="images/FPK.png" /></a></p>
+    <p style="text-align:center"><a href="https://gaudeamus.nl/"><img src="images/GAUDEAMUS.png" /></a></p>
+    </section>
+    </div>
+
+    <!-- <div id="sound">
+      [ Sound OFF ]
+    </div> -->
+
+    <div class="speaker mute" id="sound">
+      <span></span>
+    </div>
+  </body>
+</html>
